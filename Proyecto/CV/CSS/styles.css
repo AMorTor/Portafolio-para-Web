@@ -1,0 +1,148 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+* a{
+    text-decoration: none;
+    color: darkgoldenrod;
+    padding: 1%;
+}
+.clipboard{
+ border: 0;
+ padding-right: 1%;
+ background-color: #eae7e7;
+ width: 100%;
+ color: darkgoldenrod;
+ 
+}
+.clipboard:focus{
+    outline: none;
+}
+.clipboard::selection{
+    background-color: transparent;
+}
+
+.socialMedia button{
+    margin: 1%;
+    border-radius: 5px;
+    width: 5vh;
+    height: auto;
+}
+body{
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+    z-index: 9999;
+    
+}
+header{
+    display: block;
+    width: 100%;
+    height: 250px;
+    background-image: url(../src/images/headerImage.jpg);
+    background-position: center;
+}
+.icon{
+    /* background-color: aquamarine; */
+    border-radius: 100%;
+    display: flex;
+    margin-top: -5%;
+    margin-left: 5vh;
+    width: 16vh;
+    height: 16vh;
+    
+}
+.icon img{
+    
+    margin: 0 auto;
+    border-radius: 200px;
+} 
+.personal{
+    margin-left: 5vh;
+    margin-right: 5vh;
+
+}
+.personal p{
+    border-left: solid 4px black;
+    padding-left: 1%;
+}
+.container{
+    display: flex;
+    margin-left: 5vh;
+    margin-right: 5vh;
+
+}
+
+.subc1{
+    width: 40%;
+}
+.subc2{
+    width: 60%;
+}
+
+.contact , .language, .planguages, .skills, .tools{
+    margin-right: 1em;
+    
+}
+.socialMedia img, .sublanguage img, .aTool img{
+    padding: 15px;
+    width: 2vh;
+} 
+.education img{
+    padding: 15px;
+    width: 8vh;
+}
+.tittle{
+    display: flex;
+    background-color: #85e6c17f;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+    height: 5vh;
+    margin: 1%;
+}
+.subtittle{
+    display: flex;
+    background-color: #66736e7d;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+    height: 5vh;
+    margin: 1%;
+}
+.socialMedia,  .sublanguage{
+    display: flex;
+    background-color: #eae7e7;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+    height: 5vh;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.subTools1{
+    margin-right: 1em;
+    display: flex;
+    margin: 0%;
+}
+.aTool{
+    display: flex;
+    background-color: #eae7e7;
+    align-items: center;
+    border-radius: 8px;
+    width: 50%;
+    height: 5vh;
+    margin: 1%;
+    
+}
+.subskills, .aSkills, .subeducation{
+    display: flex;
+    background-color: #eae7e7;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+    height: 7vh;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+}

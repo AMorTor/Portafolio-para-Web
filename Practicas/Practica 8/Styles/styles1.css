@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border:  solid 2px powderblue;
+    margin-bottom: 10px;
+    width: 60vh;
+    text-align: left;
+}
+td, tr{
+    border: 2px solid powderblue;
+    width: auto;
+}
+.table1{
+    text-align: center;
+    color: tomato;
+}
+.table2, .table4, .table6, .table8{
+    font-size: 20px;
+    text-align: left;
+}
+.justform{
+    background-color: powderblue;
+}
+.circle{
+    text-align: center;
+
+}
+.ainput{
+    width: 100%;
+    border: none;
+}

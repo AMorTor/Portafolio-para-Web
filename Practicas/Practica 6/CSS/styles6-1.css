@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+}
+table,td,tr {
+    border-collapse: collapse;
+    border: 2px solid black;
+      }
+td{
+    width: 50px;
+    height: 25px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+td:hover{
+    background-color: yellow;
+}
+.horario{
+    background-color: rgb(170, 206, 229);
+}
+.time{
+    background-color: rgb(132, 188, 223);
+}
+.cienciaSociales{
+    background-color: yellow;
+}
+.español{
+    background-color: purple;
+}
+.ingles{
+    background-color: orange;
+}
+.matematicas{
+    background-color: pink;
+}
+.cienciasNaturales{
+    background-color: blue;
+}
+.artistica{
+    background-color: orangered;
+}
+.educacionFisica{
+    background-color: greenyellow;
+}
+.tecnologia{
+    background-color: green;
+}
+.religion{
+    background-color: brown;
+}
+.etica{
+    background-color: red;
+}
+

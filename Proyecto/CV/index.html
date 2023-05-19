@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <header></header>
+  <body>
+    <div class="icon">
+      <img src="src/images/myFace.jpeg" alt="" />
+    </div>
+
+    <div class="personal">
+      <h1 class="myName">Alejandro Morales Torres</h1>
+      <p>
+        Como ingeniero en sistemas computacionales con 2 años de experiencia, he
+        adquirido un sólido dominio de Node.js y un enfoque especializado en el
+        desarrollo de aplicaciones web. Mi pasión por la creación de soluciones
+        tecnológicas innovadoras me impulsa a estar al tanto de las últimas
+        tendencias y tecnologías relacionadas con el desarrollo web. Con una
+        sólida base técnica y habilidades para la resolución de problemas, estoy
+        comprometido en crear aplicaciones web eficientes y de alto rendimiento
+        para satisfacer las necesidades de los usuarios.
+      </p>
+    </div>
+    <div class="container">
+      <div class="subc1">
+        <div class="contact">
+          <div class="tittle">
+            <h2>Contacto</h2>
+          </div>
+          <div class="socialMedia">
+            <img src="src/images/outlookLogo.png" alt="" />Email:
+            <input
+              type="texto"
+              value="amoralest020906@hotmail.com"
+              id="texto"
+              class="clipboard"
+            />
+            <button onclick="copyToClipboard();">Copy</button>
+            <script>
+              function copyToClipboard() {
+                let texto = document.getElementById("texto");
+                texto.select();
+                texto.setSelectionRange(0, 999);
+                document.execCommand("copy");
+              }
+            </script>
+          </div>
+          <div class="socialMedia">
+            <img src="src/images/githubLogo.png" alt="" />Github:
+            <a href="https://github.com/AMorTor"> AMorTor</a>
+          </div>
+          <div class="socialMedia">
+            <img src="src/images/folder.png" alt="" />Portafolio:
+            <a href="#"> Alejandro Morales</a>
+          </div>
+        </div>
+
+        <div class="language">
+          <div class="tittle">
+            <h2>Idiomas</h2>
+          </div>
+          <div class="sublanguage">
+            <img src="src/images/mexicoFlag.png" alt="" /> Español nativo
+          </div>
+          <div class="sublanguage">
+            <img src="src/images/eeuuFlag.png" alt="" /> ingles B1: intermedio
+          </div>
+        </div>
+
+        <div class="tools">
+          <div class="tittle">
+            <h2>Lenguajes de programacion y herramientas</h2>
+          </div>
+          <div class="subTools1">
+            <div class="aTool">
+              <img src="src/images/vsCodeLogo.png" alt="" />Vs Code
+            </div>
+            <div class="aTool">
+              <img src="src/images/notionLogo.png" alt="" />Notion
+            </div>
+          </div>
+          <div class="subTools1">
+            <div class="aTool">
+              <img src="src/images/gitLogo.png" alt="" />Git
+            </div>
+            <div class="aTool"><img src="src/images/cLogo.png" alt="" />C</div>
+          </div>
+          <div class="subTools1">
+            <div class="aTool">
+              <img src="src/images/TypescriptLogo.png" alt="" />TypeScript
+            </div>
+            <div class="aTool">
+              <img src="src/images/JSLogo.png" alt="" />JavaScript
+            </div>
+          </div>
+          <div class="subTools1">
+            <div class="aTool">
+              <img src="src/images/nodeLogo.png" alt="" />Node.js
+            </div>
+            <div class="aTool">
+              <img src="src/images/xilinxLogo.png" alt="" />Xilinx
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subc2">
+        <div class="skills">
+          <div class="tittle">
+            <h2>Habilidades</h2>
+          </div>
+          <div class="aSkill">
+            <h3 class="subtittle">Habilidades Blandas</h3>
+          </div>
+          <div class="subskills">
+            <p>
+              Comunicación efectiva, trabajo en equipo, resolución de problemas,
+              pensamiento crítico, adaptabilidad, orientación al cliente,
+              gestión del tiempo, liderazgo, pensamiento creativo y ética
+              profesional.
+            </p>
+          </div>
+          <div class="aSkill">
+            <h3 class="subtittle">Habilidades Duras</h3>
+          </div>
+          <div class="subskills">
+            Experiencia en la conexión de sistemas de sonido y la instalación de
+            bocinas, así como conocimientos sólidos en ecualización de sonido.
+            Puedo ajustar y optimizar la calidad del audio para crear ambientes
+            sonoros adecuados y garantizar una experiencia auditiva de alta
+            calidad.
+          </div>
+          <div class="subskills">
+            Soy un técnico en sistemas digitales con habilidades en
+            mantenimiento de computadoras y programación en C. Poseo experiencia
+            en programación de microcontroladores. Capaz de realizar
+            diagnósticos, reparaciones y optimización de sistemas informáticos.
+            Conocimientos sólidos en hardware y software, así como capacidad
+            para resolver problemas técnicos de manera eficiente.
+          </div>
+        </div>
+        <div class="education">
+          <h3 class="subtittle">Educacion</h3>
+          <div class="subeducation">
+            <img src="src/images/escomLogo.png" alt="" />
+            <p>ESCOM 2021-2025, Ingenieria en Sistemas Compucionales</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

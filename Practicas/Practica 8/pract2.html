@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="Styles/styles2.css" />
+    <link rel="shortcut icon" href="src/icon/icon.png" />
+  </head>
+  <body>
+    <div class="formContainer">
+      <div class="subContainer">
+        <div class="header">
+          <h1>Formulario de contacto</h1>
+          <p style="font-size: large">
+            Escribenos y en breve los pondremos en contacto contigo.
+          </p>
+          <br />
+          <form action="">
+            Nombre<label for="name" class="required"> *</label><br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input"
+              required
+            /><br /><br />
+
+            Email<label for="email" class="required"> *</label><br />
+            <input
+              type="text"
+              name="email"
+              id="email"
+              class="input"
+              required
+            /><br /><br />
+
+            <label for="phone">Telefono</label><br />
+            <input type="text" name="phone" id="phone" class="input" />
+            <br /><br />
+
+            <label for="website">Sitio Web</label><br />
+            <input
+              type="text"
+              name="website"
+              id="website"
+              class="input"
+            /><br /><br />
+
+            Asunto<label for="asunto" class="required"> *</label><br />
+            <input
+              type="text"
+              name="asunto"
+              id="asunto"
+              class="input"
+              required
+            /><br /><br />
+
+            Mensaje<label for="message" class="required"> *</label><br />
+            <textarea name="message" id="message"></textarea><br /><br />
+
+            <label for="send"></label>
+            <input type="submit" name="send" id="send" class="sendButton" />
+            <label for="" class="required">*</label> los campos obligatorios
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
